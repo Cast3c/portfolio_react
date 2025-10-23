@@ -1,6 +1,7 @@
 import CyG from './../assets/img/CyG transportes.png';
 import SanityKing from './../assets/img/Sanity King.png';
 import AppTender from './../assets/img/appTender.png';
+import TaskAppi from './../assets/img/taskAppi.png'
 import './../index.css';
 
 const Work = () => {
@@ -29,7 +30,7 @@ const Work = () => {
           <div className="work__card mix web">
             <img
               src={CyG}
-              alt=""
+              alt="CyG transportes website"
               className="work__img"
             />
 
@@ -43,7 +44,7 @@ const Work = () => {
           <div className="work__card mix web">
             <img 
                 src={SanityKing} 
-                alt="" 
+                alt="sanityKing website" 
                 className="work__img" 
             />
 
@@ -57,7 +58,7 @@ const Work = () => {
           <div className="work__card mix movil">
             <img 
                 src={AppTender} 
-                alt="" 
+                alt="appTender project" 
                 className="work__img" 
             />
 
@@ -70,13 +71,13 @@ const Work = () => {
 
           <div className="work__card mix design">
             <img 
-                src={AppTender} 
-                alt="" 
+                src={TaskAppi} 
+                alt="taskAppi project" 
                 className="work__img" 
             />
-            <h3 className="work__title">Web design</h3>
+            <h3 className="work__title">App</h3>
 
-            <a href="" className="work__button">
+            <a href="https://taskappi.fly.dev/" className="work__button">
               Demo <i className="bx bx-right-arrow-alt work-icon"></i>
             </a>
           </div>
