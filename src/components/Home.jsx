@@ -1,6 +1,6 @@
 import React from 'react';
 import perfilImage from '../assets/cast3cProfile.png';
-import cvPdf from '../assets/pdf/CV Ricardo Castellar P.pdf'; // Asegúrate de tener la imagen en esta ruta
+import cvPdf from '../assets/pdf/CV Ricardo Castellar Paez.pdf'; // Asegúrate de tener la imagen en esta ruta
 import "./../index.css";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn'; // Puedes usar también module.scss si prefieres
@@ -8,7 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'; // Puedes usar también
 const handleDownload = () => {
         const cv = document.createElement('a');
         cv.href = cvPdf;
-        cv.download = 'Ricardo Castellar P.pdf';
+        cv.download = 'CV Ricardo Castellar Paez.pdf';
         document.body.appendChild(cv);
         cv.click();
         document.body.removeChild(cv);
