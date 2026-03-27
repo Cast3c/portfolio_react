@@ -2,6 +2,7 @@ import { footer } from "../content"
 import { footerIcons } from "../lib/icons"
 
 const Footer = () => {
+  const getCurrentYear = new Date().getFullYear(); 
   return (
     <footer className="py-10 border-t border-black/10 mt-20">
       <div className="px-6 flex flex-col items-center text-center gap-6">
@@ -46,7 +47,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-xs text-neutral-400">
-          {footer.copyright}
+          © {getCurrentYear} {footer.copyright}
         </p>
 
       </div>

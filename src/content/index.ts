@@ -421,7 +421,7 @@ export const portfolioData: PortfolioData = {
       linkedin: 'https://linkedin.com/in/ricardo-castellar',
       mail: 'ricardo.castellarp@gmail.com'
     },
-    copyright: '© 2024 Ricardo Castellar · Bogotá, Colombia 🇨🇴'
+    copyright: 'Ricardo Castellar · Bogotá, Colombia 🇨🇴'
   }
 }
 
