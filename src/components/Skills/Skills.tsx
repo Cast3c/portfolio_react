@@ -5,7 +5,7 @@ import SkillsGrid from "./SkillsGrid"
 const Skills = () => {
   return (
     <section id="skills" className="py-20">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="px-6">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
           <span className="text-red-500 text-sm font-medium">Skills</span>

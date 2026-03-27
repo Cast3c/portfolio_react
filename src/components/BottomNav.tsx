@@ -5,7 +5,7 @@ const BottomNav = () => {
   return (
     <div className="fixed bottom-0 left-0 w-full flex justify-center mb-6 z-50">
       
-      <nav className="relative flex flex-row max-w-md w-full justify-between px-6 py-4 rounded-full
+      <nav className="relative flex flex-row  gap-12 justify-between px-6 py-4 rounded-full
         bg-black/10 backdrop-blur-sm border border-white/40 shadow-lg">
 
         {/* Glow interno */}

@@ -7,7 +7,7 @@ interface Props {
 
 const ProjectFilters = ({active, setActive}: Props) => {
     return (
-        <div className="mx-auto flex gap-2">
+        <div className="flex flex-wrap gap-2 justify-center">
             {categories.map((cat) => (
                 <button 
                     key={cat}

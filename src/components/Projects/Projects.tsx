@@ -27,7 +27,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="py-24">
-      <div className="max-w-7xl mx-auto px-6 flex flex-col gap-12">
+      <div className=" px-6 flex flex-col gap-12">
         {/* Title */}
         <div className="text-center">
           <h2 className="text-4xl font-bold">{projects.title}</h2>

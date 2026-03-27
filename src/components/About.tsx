@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <section id="about" className="flex flex-col p-12 md:p-12 ">
+    <section id="about" className="flex flex-col p-6 md:p-12 ">
       <h2 className="pb-12 md:pb-14 mx-auto text-4xl font-bold">
         {about.title}
       </h2>
@@ -12,7 +12,7 @@ const About = () => {
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y:0 }}
         transition={{ duration: 0.5 }}
-        className="max-w-7xl mx-auto p-6 grid md:grid-cols-2 gap-12 border border-red-700 rounded-xl">
+        className="p-4 grid md:grid-cols-2 gap-12 border border-red-700 rounded-xl">
         {/* Left */}
         <div className="flex flex-col gap-6">
             <span className="max-w-20 text-sm text-red-500 font-medium bg-red-700/20 backdrop-blur px-2 py-1 rounded-sm ">
@@ -48,7 +48,7 @@ const About = () => {
               return (
                 <div
                   key={item.label}
-                  className="flex flex-row p-4 gap-4 rounded-xl border border-black/10 hover:shadow-xl bg-white/60 backdrop-blur hover:translate-y-1 transition"
+                  className="flex flex-col justify-between items-center md:flex-row p-4 gap-4 rounded-xl border border-black/10 hover:shadow-xl bg-white/60 backdrop-blur hover:translate-y-1 transition"
                 >
                   <div className="flex flex-col">
                     <p className="text-sm font-medium">{item.label}</p>

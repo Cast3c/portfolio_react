@@ -8,10 +8,10 @@ const Hero = () => {
       id="hero"
       className="min-h-screen flex items-center flex-col justify-center"
     >
-      <div className="max-w-7xl mx-auto w-full px-6 flex flex-col md:flex-row md:mt-6 items-center justify-center gap-12">
+      <div className="w-full px-6 flex flex-col md:flex-row md:mt-6 items-center justify-center gap-12">
         {/* Left side */}
         <div className="flex flex-col gap-2 md:gap-3 max-w-3xl">
-          <h1 className="heading text-5xl md:text-7xl font-black leading-tight text-[rgba(38,3,3,1)]">
+          <h1 className="heading text-4xl md:text-7xl font-black leading-tight text-[rgba(38,3,3,1)]">
             {hero.name}
           </h1>
           <p className="paraph text-3xl md:text-4xl font-semibold text-neutral-600">

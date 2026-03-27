@@ -16,7 +16,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20">
-      <div className="max-w-4xl mx-auto px-6 text-center">
+      <div className="px-6 text-center">
 
         {/* Header */}
         <motion.div

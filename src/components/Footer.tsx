@@ -4,7 +4,7 @@ import { footerIcons } from "../lib/icons"
 const Footer = () => {
   return (
     <footer className="py-10 border-t border-black/10 mt-20">
-      <div className="max-w-7xl mx-auto px-6 flex flex-col items-center text-center gap-6">
+      <div className="px-6 flex flex-col items-center text-center gap-6">
 
         {/* Name */}
         <h3 className="text-lg font-semibold">
