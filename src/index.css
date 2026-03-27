@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import "tailwindcss";
+
+@theme{
+  --font-sans: "Montserrat", system-ui, -apple-system, sans-serif;
+  --font-heading: "Schibsted Grotesk", system-ui, -apple-system, sans-serif;
+}
+
+/* index.css */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.heading{ 
+  font-family: var(--font-heading);
+}
+
+.paraph{
+  font-family: var(--font-sans)
+}
+
+.profile_links{
+  display: flex;
+}
+
+.profile_links::after{
+  content: '';
+  width: 32px;
+  height: 2px;
+  
+}
+ 
